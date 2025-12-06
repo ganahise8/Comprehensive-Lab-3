@@ -140,7 +140,7 @@ public class Character {
         return this.name + ", HP=" + this.currHp + ", Attack=" + this.attack + ", Defense=" + this.defense;
     }
 
-    // Add a clone-like helper to copy a Character's stats
+    // A clone helper to copy a characters stats
     public Character copy() {
         Character c = new Character(this.name, this.maxHp, this.attack, this.defense);
         c.setCurrHp(this.currHp);
